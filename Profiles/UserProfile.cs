@@ -2,12 +2,11 @@
 using UsersAPI.Data.DTOs;
 using UsersAPI.Models;
 
-namespace UsersAPI.Profiles;
-
 public class UserProfile : Profile
 {
     public UserProfile()
     {
-        CreateMap<CreateUserDTO, User>();
+        CreateMap<CreateUserDTO, User>()
+            .ForMember(dest => dest.EmailConfirmed, opt => opt.MapFrom(src => false)); // Ou qualquer valor padrão desejado
     }
 }

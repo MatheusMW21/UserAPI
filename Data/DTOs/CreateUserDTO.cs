@@ -8,6 +8,12 @@ public class CreateUserDTO
     [Required] 
     public string Username { get; set; }
 
+    [Required]
+    public string Email { get; set; }
+    [Required]
+    [Compare("Email")]
+    public string EmailConfirmed { get; set; }
+
     [Required] 
     public DateTime Birthday { get; set; }
     [Required]
