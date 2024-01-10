@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "foE3xwdNWwDxSaloQZ6qc5VdSSh0mvc90HZSZmivOxc7HvWq7HubpRMTW7qnQP1BSGfwMd4udW/sfk9tExyNVA==",
+  "dgSpecHash": "VqCUxarwtltU3ISxi3qiTb1deEs1pcegLRlubizUsn0cZ7MIb/FUa+vs0VCenOWZuacYzU/rCAllx0kGNthtPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathe\\source\\repos\\UsersAPI\\UsersAPI.csproj",
+  "projectFilePath": "C:\\Users\\mathe\\source\\repos\\UserAPI\\UserAPI\\UsersAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathe\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -9,11 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 var connString = builder.Configuration.GetConnectionString("UserConnection");
 
-builder.Services.AddDbContext<UserDbContext>
-    (opts =>
-    {
-        opts.UseMySql(connString, ServerVersion.AutoDetect(connString));
-    });
+builder.Services.AddDbContext<UserDbContext>(opts =>
+{
+    opts.UseSqlServer(connString);
+});
 
 builder.Services
     .AddIdentity<User, IdentityRole>()

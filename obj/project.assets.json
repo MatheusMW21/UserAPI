@@ -1565,11 +1565,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mathe\\source\\repos\\UsersAPI\\UsersAPI.csproj",
+      "projectUniqueName": "C:\\Users\\mathe\\source\\repos\\UserAPI\\UserAPI\\UsersAPI.csproj",
       "projectName": "UsersAPI",
-      "projectPath": "C:\\Users\\mathe\\source\\repos\\UsersAPI\\UsersAPI.csproj",
+      "projectPath": "C:\\Users\\mathe\\source\\repos\\UserAPI\\UserAPI\\UsersAPI.csproj",
       "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mathe\\source\\repos\\UsersAPI\\obj\\",
+      "outputPath": "C:\\Users\\mathe\\source\\repos\\UserAPI\\UserAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
