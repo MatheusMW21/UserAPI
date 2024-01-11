@@ -14,7 +14,7 @@ UserAPI is an ASP.NET Core web application that provides user registration funct
 
 1. **Clone the Repository:**
     ```bash
-   git clone https://github.com/your-username/UserAPI.git
+   git clone https://github.com/MatheusMW21/UserAPI.git
    cd UserAPI
 
 2. **Restore Dependencies:**
