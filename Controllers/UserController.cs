@@ -11,17 +11,24 @@ namespace UsersAPI.Controllers;
 [Route("[Controller]")]
 public class UserController : ControllerBase
 {
-    private RegisterService _registerService;
+    private UserService _userService;
 
-    public UserController(RegisterService registerService)
+    public UserController(UserService userService)
     {
-        _registerService = registerService;
+        _userService = userService;
     }
 
-    [HttpPost]
+    [HttpPost("register")]
     public async Task<IActionResult> UserRegister(CreateUserDTO dto)
     {
-        await _registerService.Register(dto);
+        await _userService.Register(dto);
         return Ok("User registered");
+    }
+
+    [HttpPost("login")]
+    public async Task<IActionResult> Login(LoginUserDTO dto)
+    {
+        var token = await _userService.Login(dto);
+        return Ok(token);
     }
 }
